@@ -7,4 +7,4 @@ We can easily test if the model has learned the underlying structure of the data
 
 # Results: Percent of Valid Sequence Completions by Training Strategy
 
-![Chem-ROAR Generation](resources/targeted_generation.png)
+![Chem-ROAR Generation](resources/percent_valid.png)
