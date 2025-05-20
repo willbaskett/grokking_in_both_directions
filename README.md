@@ -23,6 +23,7 @@ We explore 3 sequence order traversals.
 * attention heads = 8
 * Dropout = Randomly dropped between 0% and 100% of activations for each training sample. For each training sample/iteration the exact same nodes were dropped across all layers to encourage useful ensembling. 
 * LR = 1e-3
+* AdamW WD = 1
 * Batch = 1024
 
 
