@@ -11,11 +11,11 @@ We explore 3 sequence order traversals.
 * Alternating left-to-right and right-to-left
 * Pseudo random sequence order traversal where the "next" token in the random sequence is likely to be located near the "previous" token in the original unscrambled sequence
 
-Data:
+### Data:
 * Training data consisted of 10,000 randomly generated two digit sum equality in the form a±b==c±d consisting of integers in the range -99 - +99
 * A leading and trailing padding token to indicate the start/end of each line, resulting in a maximum of 14 tokens
 
-Model/Training:
+### Model/Training:
 * Utilized a ROAR model
 * layers = 32
 * model dim = 512
