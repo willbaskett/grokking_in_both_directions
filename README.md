@@ -5,6 +5,6 @@ These experiments try to quantify this in the very simple case of two digit sum 
 
 We can easily test if the model has learned the underlying structure of the data by checking if models prompted with a±b==? successfully complete the sequences such that a±b==c±d.
 
-# Results: Percent of Valid Sequence Completions by Training Strategy
+# Results: Proportion of Sequence Completions Which are Valid by Training Strategy
 
-![Chem-ROAR Generation](resources/percent_valid.png)
+![Percent Valid](resources/percent_valid.png)
