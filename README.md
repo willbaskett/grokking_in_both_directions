@@ -6,6 +6,11 @@ These experiments try to quantify this in the very simple case of two digit sum 
 
 We can easily test if the model has learned the underlying structure of the data by checking if models prompted with a±b==? successfully complete the sequences such that a±b==c±d.
 
+We explore 3 sequence order traversals. 
+* Conventional left-to-right training.
+* Alternating left-to-right and right-to-left
+* Pseudo random sequence order traversal where the "next" token in the random sequence is likely to be located near the "previous" token in the original unscrambled sequence
+
 # Results: Proportion of Sequence Completions Which are Valid by Training Strategy
 
 ![Percent Valid](resources/percent_valid.png)
