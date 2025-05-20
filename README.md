@@ -29,3 +29,6 @@ The proportion of samples completed in a valid way is almost uncorrelated with t
 ![Percent Valid](resources/l2.png)
 
 More complex sequence traversal orders are more difficult to learn initially.
+
+# Usage
+See [the demo notebook](grok_demo.ipynb) for the exact code used to generate these results.
