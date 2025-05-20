@@ -17,11 +17,15 @@ We explore 3 sequence order traversals.
 
 We observe that left-to-right training leaves a significant amount of potential performance on the table given a finite amount of data. Forcing the model to learn a more comprehensive model of the structure of its training data improves performance even when the model is only evaluated left-to-right.
 
-# Left-to-Right Test Loss during training
+# Left-to-Right Test Loss During Training
 
 ![Percent Valid](resources/test_loss.png)
 
+The proportion of samples completed in a valid way is almost uncorrelated with test loss, though sharp drops can be observed when phase changes occur.
 
-# Model L2 during training
 
-![Percent Valid](resourcesl2.png)
+# Model L2 During Training
+
+![Percent Valid](resources/l2.png)
+
+More complex sequence traversal orders are more difficult to learn initially.
