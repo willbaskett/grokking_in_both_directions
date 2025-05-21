@@ -37,7 +37,7 @@ We explore 3 sequence order traversals.
 
 We observe that left-to-right training leaves a significant amount of potential performance on the table given a finite amount of data. Forcing the model to learn a more comprehensive model of the structure of its training data improves performance even when the model is only evaluated left-to-right. 
 
-Bi-directional modeling improves the data efficiency of sequence models, though there is no it has to be done autoregressively.
+Bi-directional modeling improves the data efficiency of sequence models, though there is no reason it has to be done autoregressively.
 
 # Left-to-Right Test Loss During Training
 
