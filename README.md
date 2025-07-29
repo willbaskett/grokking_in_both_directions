@@ -16,7 +16,7 @@ We explore 3 sequence order traversals.
 ## Training Details
 
 ### Data:
-* Training data consisted of 10,000 randomly generated two digit sum equality in the form a±b==c±d consisting of integers in the range -99 to +99
+* Training data consisted of 10,000 randomly generated two digit sum equalities in the form a±b==c±d consisting of integers in the range -99 to +99
 * A leading and trailing padding token to indicate the start/end of each line, resulting in a maximum of 14 tokens
 
 ### Model/Training:
