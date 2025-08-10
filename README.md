@@ -20,7 +20,7 @@ We explore 3 sequence order traversals.
 * A leading and trailing padding token to indicate the start/end of each line, resulting in a maximum of 14 tokens
 
 ### Model/Training:
-* Utilized the ROAR architecture to allow random order autoregressive modeling. See [Med-ROAR](https://github.com/willbaskett/MedROAR) for details
+* Utilized the ROAR architecture to allow random order autoregressive modeling. See [Med-ROAR](https://github.com/willbaskett/MedROAR) for details.
 * layers = 32
 * model dim = 512
 * ff dim = 1024
